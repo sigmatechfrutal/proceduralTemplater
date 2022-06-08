@@ -5,24 +5,24 @@ COMO USAR ESTA FUNÇÃO?
 
 1) Faça a chamada de inclusão do arquivo ou copie o código para seu arquivo de funções
 
-Ex: require 'CAMINHO_PARA_O_ARQUIVO/templater.php';
+  Ex: require 'CAMINHO_PARA_O_ARQUIVO/templater.php';
 
 2) Declare o caminho do arquivo de template:
-$pagina = "CAMINHO_PAGINA/pagina.html";
+  $pagina = "CAMINHO_PAGINA/pagina.html";
 
 3) Gere o array de dados a serem substituidos do html no formato CHAVE => VALOR
-$dados = array(
-  "{{TEXTO1}}" => "VALOR1",
-  "{{TEXTO2}}" => "VALOR2",
-);
+  $dados = array(
+    "{{TEXTO1}}" => "VALOR1",
+    "{{TEXTO2}}" => "VALOR2",
+  );
 
 4) Chame a função. Ela retorna na variável o html montado com o texto substituido.
 
-$render = templater($pagina, $dados);
+  $render = templater($pagina, $dados);
 
 5) Exiba o resultado com um simples echo ou do modo que preferir
 
-echo $render;
+  echo $render;
 
 Exemplo completo:
 
