@@ -21,5 +21,9 @@ FUNÇÃO EM PHP PROCEDURAL PARA TEMPLATING - FACILITAR O USO DE TEMPLATES HTML E
 5) Exiba o resultado com um simples echo ou do modo que preferir
 
   Ex: <code> echo $render; </code>
+  
+<b> Usar {{}} no local do HTML onde o texto será substituido.
+  
+Ex:  <code> {{AKI_VAI_TEXTO_A_SER_SUBSTITUIDO}} </code>
 
 Exemplo completo no arquivo exemplo.php
